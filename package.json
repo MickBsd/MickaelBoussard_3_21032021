@@ -1,0 +1,22 @@
+{
+  "name": "p3_boussard_mickael",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./public/sass/main.scss:./public/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MickBsd/MickaelBoussard_3_21032021.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MickBsd/MickaelBoussard_3_21032021/issues"
+  },
+  "homepage": "https://github.com/MickBsd/MickaelBoussard_3_21032021#readme",
+  "dependencies": {
+    "sass": "^1.32.8"
+  }
+}
