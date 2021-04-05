@@ -1,0 +1,31 @@
+@import "../base/typo";
+
+footer {
+    background-color: #353535;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+
+    h2 {
+        font-family: $shrikhand-typo;
+        font-size: 1.2rem;
+        margin-bottom: 1.5rem;
+    }
+}
+
+.footer-link {
+    color: white;
+    margin-bottom: 1rem;
+
+    &__icon {
+        font-size: 1rem;
+        margin-right: 1rem;
+    }
+
+    &__link {
+       color: white; 
+       font-size: 1rem;
+       margin-bottom: 1rem;
+    }
+}

@@ -1,0 +1,14 @@
+.btn-primary {
+    display: flex;
+    width: max-content;
+    margin: auto;
+    padding: 1rem;
+    background-color: $clr-primary;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 2rem;
+    box-shadow: 0.1rem 0.1rem 1rem  grey;
+    cursor: pointer;
+}

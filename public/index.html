@@ -4,14 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Réservez le menu qui vous convient. 
-        Découvre des restaurants d'exception, séléctionnés par nos soins.">
+    <meta name="description" content="Réservez le menu qui vous convient. Découvre des restaurants d'exception, séléctionnés par nos soins.">
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/5dd948bff3.js" crossorigin="anonymous"></script>
+
+
     <title>ohmyfood</title>
 </head>
 <body>
     <header>
-        <i class="previous-arrow"></i>
         <h1>ohmyfood</h1>
     </header>
 
@@ -20,28 +23,28 @@
     <main>
         <section>
             <div class="localisation">
-                <div class="localisation__icon"></div>
+                <div class="localisation__icon fas fa-map-marker-alt"></div>
                 <p class="localisation__town">Paris, Belleville</p>
             </div>
             <div class="description">
                 <h2>Réservez le menu qui vous convient</h2>
-                <h4>Découvrez des restaurants d'exception, séléctionnés par nos soins.</h4>
-                <button class="description__btn btn-primary">Explorer nos restaurants</button>
+                <p>Découvrez des restaurants d'exception, séléctionnés par nos soins.</p>
+                <a href="" class="btn-primary">Explorer nos restaurants</a>
             </div>
             <div class="step-by-step">
                 <h2>Fonctionnement</h2>
                 <div class="step-by-step-bloc">
-                    <i class="step-by-step-bloc__icon"></i>
+                    <i class="step-by-step-bloc__icon fas fa-mobile-alt"></i>
                     <p class="step-by-step-bloc__text">Choisissez un restaurant</p>
                     <p class="step-by-step-bloc__number">1</p>
                 </div>
                 <div class="step-by-step-bloc">
-                    <i class="step-by-step-bloc__icon"></i>
+                    <i class="step-by-step-bloc__icon fas fa-list-ul"></i>
                     <p class="step-by-step-bloc__text">Composez votre menu</p>
                     <p class="step-by-step-bloc__number">2</p>
                 </div>
                 <div class="step-by-step-bloc">
-                    <i class="step-by-step-bloc__icon"></i>
+                    <i class="step-by-step-bloc__icon fas fa-store"></i>
                     <p class="step-by-step-bloc__text">Dégustez au restaurant</p>
                     <p class="step-by-step-bloc__number">3</p>
                 </div>
@@ -53,7 +56,7 @@
                 <h2>Restaurants</h2>
 
                 <article>
-                    <div class="restaurant-card">
+                    <a href="laPaletteDuGout.html" class="restaurant-card">
                         <img class="restaurant-card__img" src="" alt="">
                         <p class="new-marker">Nouveau</p>
                         <div class="restaurant-card__infos">
@@ -63,13 +66,13 @@
                             </div>
                             <div class="restaurant-card__icon"></div>
                         </div>    
-                    </div>
+                    </a>
                 </article>
 
                 <article>
-                    <div class="restaurant-card">
+                    <a href="laNoteEnchantee.html" class="restaurant-card">
                         <img class="restaurant-card__img" src="" alt="">
-                        <p class="new-marker"></p>
+                        <p class="new-marker">Nouveau</p>
                         <div class="restaurant-card__infos">
                             <div class="restaurant-card__text">
                                 <h3 class="restaurant-card__name">La note enchantée</h3>
@@ -77,11 +80,11 @@
                             </div>
                             <div class="restaurant-card__icon"></div>
                         </div>    
-                    </div>
+                    </a>
                 </article>
 
                 <article>
-                    <div class="restaurant-card">
+                    <a href="aLaFrancaise.html" class="restaurant-card">
                         <img class="restaurant-card__img" src="" alt="">
                         <div class="restaurant-card__infos">
                             <div class="restaurant-card__text">
@@ -90,11 +93,11 @@
                             </div>
                             <div class="restaurant-card__icon"></div>
                         </div>    
-                    </div>
+                    </a>
                 </article>
 
                 <article>
-                    <div class="restaurant-card">
+                    <a href="leDeliceDesSens.html" class="restaurant-card">
                         <img class="restaurant-card__img" src="" alt="">
                         <div class="restaurant-card__infos">
                             <div class="restaurant-card__text">
@@ -103,22 +106,19 @@
                             </div>
                             <div class="restaurant-card__icon"></div>
                         </div>    
-                    </div>
+                    </a>
                 </article>
-            
         </section>
 
     </main>
-    
     <footer>
         <h2>ohmyfood</h2>
-
         <div class="footer-link">
-            <i class="footer-link__icon"></i>
+            <i class="footer-link__icon fas fa-utensils"></i>
             <a href="" class="footer-link__link">Proposer un restaurant</a> 
         </div>
         <div class="footer-link">
-            <i class="footer-link__icon"></i>
+            <i class="footer-link__icon fas fa-handshake"></i>
             <a href="" class="footer-link__link">Devenir partenaire</a> 
         </div>
         <a href="" class="footer-link__link">Mentions légales</a>
