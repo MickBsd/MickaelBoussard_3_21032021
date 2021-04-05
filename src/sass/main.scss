@@ -1,1 +1,7 @@
-@import "./utils/variables.scss"
+@import "./utils/variables";
+@import "./base/base";
+@import "./base/typo";
+@import "./components/btn-primary";
+@import "./layouts/footer";
+@import "./layouts/header";
+@import "./pages/home";

@@ -1,0 +1,50 @@
+@import "../components/btn-primary";
+
+.localisation {
+    background-color: #eaeaea;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+
+    &__icon {
+        font-size: 1rem;
+        margin-right: 1rem;
+    }
+
+    &__town {
+        font-size: 1rem;
+        font-weight: bold;
+    }
+}
+
+.description {
+
+    background-color: #f6f6f6;    
+    padding: 1rem;
+    h2 {
+        padding: 1rem;
+        margin-top: 1rem;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    p {
+        padding: 1rem;
+        margin-bottom: 1rem;
+        font-size: 1rem;
+        font-weight: 300;
+        text-align: center;
+    }
+    
+    .btn-primary {
+        margin-bottom: 1;
+    }
+}
+
+.step-by-step {
+    margin-top: 2rem;
+
+    .step-by-step-bloc {
+        display: flex;
+    }
+}
