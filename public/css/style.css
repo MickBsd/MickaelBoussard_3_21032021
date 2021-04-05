@@ -1,19 +1,146 @@
-/* Error: It's not clear which file to import. Found:
- *   src/sass/utils/_variables.scss
- *   src/sass/utils/variables.scss
- *   ,
- * 1 | @import "./utils/variables";
- *   |         ^^^^^^^^^^^^^^^^^^^
- *   '
- *   src/sass/main.scss 1:9  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: It's not clear which file to import. Found:\a   src/sass/utils/_variables.scss\a   src/sass/utils/variables.scss\a   \2577 \a 1 \2502  @import \"./utils/variables\";\a   \2502          ^^^^^^^^^^^^^^^^^^^\a   \2575 \a   src/sass/main.scss 1:9  root stylesheet";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+body {
+  font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.btn-primary {
+  display: flex;
+  width: max-content;
+  margin: auto;
+  padding: 1rem;
+  background-color: #9356DC;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 2rem;
+  box-shadow: 0.1rem 0.1rem 1rem grey;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #353535;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+}
+footer h2 {
+  font-family: "Shrikhand", cursive;
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.footer-link {
+  color: white;
+  margin-bottom: 1rem;
+}
+.footer-link__icon {
+  font-size: 1rem;
+  margin-right: 1rem;
+}
+.footer-link__link {
+  color: white;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+header {
+  font-family: "Shrikhand", cursive;
+  box-shadow: 0 0 0.5rem 0.1rem #c2c2c2;
+  padding: 1rem;
+  position: relative;
+  z-index: 10;
+}
+header h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+header .previous-arrow {
+  position: absolute;
+  left: 1.5rem;
+  top: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.btn-primary {
+  display: flex;
+  width: max-content;
+  margin: auto;
+  padding: 1rem;
+  background-color: #9356DC;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 2rem;
+  box-shadow: 0.1rem 0.1rem 1rem grey;
+  cursor: pointer;
+}
+
+.localisation {
+  background-color: #eaeaea;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+.localisation__icon {
+  font-size: 1rem;
+  margin-right: 1rem;
+}
+.localisation__town {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.description {
+  background-color: #f6f6f6;
+  padding: 1rem;
+}
+.description h2 {
+  padding: 1rem;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.description p {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: 300;
+  text-align: center;
+}
+.description .btn-primary {
+  margin-bottom: 1;
+}
+
+.step-by-step {
+  margin-top: 2rem;
+}
+.step-by-step .step-by-step-bloc {
+  display: flex;
+}
+
+/*# sourceMappingURL=style.css.map */
