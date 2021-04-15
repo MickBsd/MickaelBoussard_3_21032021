@@ -1,8 +1,9 @@
 @import "../base/typo";
+@import "../utils/variables";
 
 footer {
-    background-color: #353535;
-    color: white;
+    background-color: $clr-light-black;
+    color: $clr-text-footer;
     display: flex;
     flex-direction: column;
     padding: 1.5rem;
@@ -12,20 +13,22 @@ footer {
         font-size: 1.2rem;
         margin-bottom: 1.5rem;
     }
-}
 
-.footer-link {
-    color: white;
-    margin-bottom: 1rem;
+    
 
-    &__icon {
-        font-size: 1rem;
-        margin-right: 1rem;
-    }
-
-    &__link {
-       color: white; 
-       font-size: 1rem;
-       margin-bottom: 1rem;
+    .footer-link {
+        color: $clr-text-footer;
+        margin-bottom: 1rem;
+    
+        &__icon {
+            font-size: 1rem;
+            margin-right: 1rem;
+        }
+    
+        &__link {
+           color: $clr-text-footer; 
+           font-size: 1rem;
+           margin-bottom: 1rem;
+        }
     }
 }

@@ -1,0 +1,7 @@
+@import "../utils/variables";
+@import "../utils/mixins";
+
+.btn-explore {
+    @include btn-primary;
+    margin-bottom: 2rem;
+}

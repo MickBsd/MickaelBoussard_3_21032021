@@ -1,7 +1,10 @@
-@import "../components/btn-primary";
+@import "../components/btn-explore";
+@import "../utils/variables";
+@import "../utils/mixins";
+
 
 .localisation {
-    background-color: #eaeaea;
+    background-color: $clr-background-localisation;
     display: flex;
     justify-content: center;
     padding: 1rem;
@@ -14,12 +17,12 @@
     &__town {
         font-size: 1rem;
         font-weight: bold;
+        color: $clr-light-black;
     }
 }
 
 .description {
-
-    background-color: #f6f6f6;    
+    background-color: $clr-light-blue;    
     padding: 1rem;
     h2 {
         padding: 1rem;
@@ -35,16 +38,52 @@
         font-weight: 300;
         text-align: center;
     }
-    
-    .btn-primary {
-        margin-bottom: 1;
+
+    .btn-explore:hover {
+        opacity: 0.9;    
     }
 }
 
 .step-by-step {
-    margin-top: 2rem;
+    margin-top: 1.5rem;
+    padding: 1rem;
+
+    h2 {
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
 
     .step-by-step-bloc {
-        display: flex;
+        @include step-by-step-bloc;
+
+        &__icon {
+            color: $clr-light-black;
+        }
+        
+    }
+
+    .step-by-step-bloc--focus {
+        @include step-by-step-bloc;
+        background-color: $clr-light-grey;   
+    
+        i {
+            color:$clr-primary;
+        }
+    
+    }
+
+}
+
+
+
+
+.restaurants {
+    background-color: $clr-light-blue;
+    padding: 1rem;
+    margin-top: 1.5rem;
+    
+    h2 {
+        font-size: 1.5rem;
+        margin-top: 2rem;
     }
 }

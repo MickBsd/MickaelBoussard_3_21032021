@@ -22,12 +22,12 @@ a {
   color: black;
 }
 
-.btn-primary {
+.btn-explore {
   display: flex;
   width: max-content;
   margin: auto;
   padding: 1rem;
-  background-color: #9356DC;
+  background: linear-gradient(to left top, #9356DC, #FF79DA);
   color: white;
   font-size: 1rem;
   font-weight: bold;
@@ -35,6 +35,23 @@ a {
   border-radius: 2rem;
   box-shadow: 0.1rem 0.1rem 1rem grey;
   cursor: pointer;
+  margin-bottom: 2rem;
+}
+
+.btn-buy {
+  display: flex;
+  width: max-content;
+  margin: auto;
+  padding: 1rem;
+  background: linear-gradient(to left top, #9356DC, #FF79DA);
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 2rem;
+  box-shadow: 0.1rem 0.1rem 1rem grey;
+  cursor: pointer;
+  margin-bottom: 2rem;
 }
 
 footer {
@@ -49,16 +66,15 @@ footer h2 {
   font-size: 1.2rem;
   margin-bottom: 1.5rem;
 }
-
-.footer-link {
+footer .footer-link {
   color: white;
   margin-bottom: 1rem;
 }
-.footer-link__icon {
+footer .footer-link__icon {
   font-size: 1rem;
   margin-right: 1rem;
 }
-.footer-link__link {
+footer .footer-link__link {
   color: white;
   font-size: 1rem;
   margin-bottom: 1rem;
@@ -85,12 +101,12 @@ header .previous-arrow {
   font-size: 1.5rem;
 }
 
-.btn-primary {
+.btn-explore {
   display: flex;
   width: max-content;
   margin: auto;
   padding: 1rem;
-  background-color: #9356DC;
+  background: linear-gradient(to left top, #9356DC, #FF79DA);
   color: white;
   font-size: 1rem;
   font-weight: bold;
@@ -98,6 +114,7 @@ header .previous-arrow {
   border-radius: 2rem;
   box-shadow: 0.1rem 0.1rem 1rem grey;
   cursor: pointer;
+  margin-bottom: 2rem;
 }
 
 .localisation {
@@ -113,6 +130,7 @@ header .previous-arrow {
 .localisation__town {
   font-size: 1rem;
   font-weight: bold;
+  color: #353535;
 }
 
 .description {
@@ -132,15 +150,90 @@ header .previous-arrow {
   font-weight: 300;
   text-align: center;
 }
-.description .btn-primary {
-  margin-bottom: 1;
+.description .btn-explore:hover {
+  opacity: 0.9;
 }
 
 .step-by-step {
-  margin-top: 2rem;
+  margin-top: 1.5rem;
+  padding: 1rem;
+}
+.step-by-step h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 .step-by-step .step-by-step-bloc {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4rem;
+  border-radius: 1.5rem;
+  margin-bottom: 1.5rem;
+  background-color: #f6f6f6;
+}
+.step-by-step .step-by-step-bloc__icon {
+  font-size: 1.2rem;
+  position: absolute;
+  left: 3rem;
+}
+.step-by-step .step-by-step-bloc__text {
+  font-size: 1rem;
+  font-weight: bold;
+}
+.step-by-step .step-by-step-bloc__number {
+  position: absolute;
+  left: 0.5rem;
+  background-color: #9356DC;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: bold;
+  border-radius: 3rem;
+  padding: 0.3rem 0.5rem;
+}
+.step-by-step .step-by-step-bloc__icon {
+  color: #353535;
+}
+.step-by-step .step-by-step-bloc--focus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4rem;
+  border-radius: 1.5rem;
+  margin-bottom: 1.5rem;
+  background-color: #f6f6f6;
+  background-color: #f5edff;
+}
+.step-by-step .step-by-step-bloc--focus__icon {
+  font-size: 1.2rem;
+  position: absolute;
+  left: 3rem;
+}
+.step-by-step .step-by-step-bloc--focus__text {
+  font-size: 1rem;
+  font-weight: bold;
+}
+.step-by-step .step-by-step-bloc--focus__number {
+  position: absolute;
+  left: 0.5rem;
+  background-color: #9356DC;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: bold;
+  border-radius: 3rem;
+  padding: 0.3rem 0.5rem;
+}
+.step-by-step .step-by-step-bloc--focus i {
+  color: #9356DC;
+}
+
+.restaurants {
+  background-color: #f6f6f6;
+  padding: 1rem;
+  margin-top: 1.5rem;
+}
+.restaurants h2 {
+  font-size: 1.5rem;
+  margin-top: 2rem;
 }
 
 /*# sourceMappingURL=style.css.map */
