@@ -1,0 +1,36 @@
+@import "../utils/variables";
+@import "../utils/mixins";
+
+.restaurant-card {
+    margin-bottom: 2rem;
+    border: solid 0.1rem transparent;
+    border-radius: 1rem;
+    @include box-shadow;
+
+    &__img {
+        @include img-card
+    }
+
+    &__text {
+    font-size: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+
+        &__name{
+            margin-bottom: 0.3rem;
+        }
+
+        &__location {
+            font-weight: 300;
+        }
+        
+    }
+
+
+    &__icon {
+        font-size: 1.5rem;
+        font-weight: lighter;
+    }
+
+}

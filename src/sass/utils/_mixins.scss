@@ -1,3 +1,5 @@
+@import "../utils/variables";
+
 @mixin btn-primary {
     display: flex;
     width: max-content;
@@ -43,4 +45,15 @@
         border-radius: 3rem;
         padding: 0.3rem 0.5rem;
     }
+}
+
+@mixin img-card {
+    height: 12rem;
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+    object-fit: cover; 
+}
+
+@mixin box-shadow {
+    box-shadow: 0.25rem 0.25rem 0.5rem $clr-box-shadow;
 }

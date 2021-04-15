@@ -1,4 +1,6 @@
 @import "../components/btn-explore";
+@import "../components/new-marker";
+@import "../components/restaurant-card";
 @import "../utils/variables";
 @import "../utils/mixins";
 
@@ -7,7 +9,7 @@
     background-color: $clr-background-localisation;
     display: flex;
     justify-content: center;
-    padding: 1rem;
+    padding: 1.5rem;
 
     &__icon {
         font-size: 1rem;
@@ -23,7 +25,7 @@
 
 .description {
     background-color: $clr-light-blue;    
-    padding: 1rem;
+    padding: 1.5rem;
     h2 {
         padding: 1rem;
         margin-top: 1rem;
@@ -38,15 +40,11 @@
         font-weight: 300;
         text-align: center;
     }
-
-    .btn-explore:hover {
-        opacity: 0.9;    
-    }
 }
 
 .step-by-step {
     margin-top: 1.5rem;
-    padding: 1rem;
+    padding: 1.5rem;
 
     h2 {
         font-size: 1.5rem;
@@ -55,35 +53,32 @@
 
     .step-by-step-bloc {
         @include step-by-step-bloc;
+        @include box-shadow;
 
         &__icon {
             color: $clr-light-black;
         }
-        
     }
 
     .step-by-step-bloc--focus {
         @include step-by-step-bloc;
+        @include box-shadow;
         background-color: $clr-light-grey;   
     
         i {
             color:$clr-primary;
         }
-    
     }
-
 }
-
-
-
 
 .restaurants {
     background-color: $clr-light-blue;
-    padding: 1rem;
+    padding: 1.5rem;
     margin-top: 1.5rem;
     
     h2 {
         font-size: 1.5rem;
         margin-top: 2rem;
+        margin-bottom: 1rem;
     }
 }
