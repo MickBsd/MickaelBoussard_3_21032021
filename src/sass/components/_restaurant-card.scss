@@ -11,26 +11,24 @@
         @include img-card
     }
 
-    &__text {
-    font-size: 1rem;
-    margin-left: 1rem;
-    margin-bottom: 0.5rem;
-    margin-top: 0.5rem;
+    &__infos {
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        font-size: 1rem;
 
-        &__name{
-            margin-bottom: 0.3rem;
-        }
-
-        &__location {
-            font-weight: 300;
-        }
-        
+        margin: 0.5rem 1rem;
     }
 
+    &__location {
+        margin: 0.3rem 0rem;
+    }
 
     &__icon {
         font-size: 1.5rem;
         font-weight: lighter;
+        position: absolute;
+        right: 3rem;
     }
 
 }
