@@ -37,6 +37,9 @@ a {
   cursor: pointer;
   margin-bottom: 2rem;
 }
+.btn-explore:hover {
+  background-color: green;
+}
 
 .btn-buy {
   display: flex;
@@ -52,6 +55,9 @@ a {
   box-shadow: 0.1rem 0.1rem 1rem grey;
   cursor: pointer;
   margin-bottom: 2rem;
+}
+.btn-buy:hover {
+  background-color: green;
 }
 
 .new-marker {
@@ -157,6 +163,9 @@ header .previous-arrow {
   box-shadow: 0.1rem 0.1rem 1rem grey;
   cursor: pointer;
   margin-bottom: 2rem;
+}
+.btn-explore:hover {
+  background-color: green;
 }
 
 .new-marker {
