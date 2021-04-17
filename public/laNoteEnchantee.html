@@ -19,110 +19,130 @@
         <h1>ohmyfood</h1>
     </header>
 
-    <main>
-        <img class="top-img" src="" alt="">
+    <main class="restaurant-page">
+        <img class="top-img" src="./assets/note-enchantee.jpg" alt="image représentant le restaurant la note enchantée">
         
-        <h2 class="restaurant-title">La note enchantée</h2>
+        <div class="restaurant-title">
+            <h2 class="restaurant-title__h2">La note enchantée</h2>
+            <i class="restaurant-title__icon far fa-heart"></i> 
+        </div>
 
         <section class="entry">
-            <h3>ENTRÉES</h3>
+            <h3 class="entry__title">ENTRÉES</h3>
 
             <div class="meal-bloc">
-                <div class="meal-bloc__text">
+                <div class="meal-bloc__title">
                     <h3>Ravioles de foie gras</h3>
-                    <p>Accompagnés de lur crème à la truffe</p>
                 </div>
-                <div class="meal-bloc__price">25€</div>
+                <div class="meal-bloc__text">
+                    <p>Accompagné de leur crème à la truffe</p>
+                    <p class="meal-bloc__text--price">25€</p>
+                </div>
             </div>
 
             <div class="meal-bloc">
-                <div class="meal-bloc__text">
+                <div class="meal-bloc__title">
                     <h3>Caviar osciètre</h3>
+                </div>
+                <div class="meal-bloc__text">
                     <p>Sur blini à la farine de blé noir</p>
+                    <p class="meal-bloc__text--price">35€</p>
                 </div>
-                <div class="meal-bloc__price">35€</div>
             </div>
 
             <div class="meal-bloc">
-                <div class="meal-bloc__text">
+                <div class="meal-bloc__title">
                     <h3>Homard et espuma de potiron</h3>
-                    <p>Mariné au zestes d'orange</p>
                 </div>
-                <div class="meal-bloc__price">20€</div>
+                <div class="meal-bloc__text">
+                    <p>Mariné au zestes d'orange</p>
+                    <p class="meal-bloc__text--price">20€</p>
+                </div>
             </div>
 
             <div class="meal-bloc">
-                <div class="meal-bloc__text">
+                <div class="meal-bloc__title">
                     <h3>Foie gras de canard cuit entier</h3>
-                    <p>Confituer de figue et pain toasté</p>
                 </div>
-                <div class="meal-bloc__price">35€</div>
+                <div class="meal-bloc__text">
+                    <p>Confiture de figue et pain toasté</p>
+                    <p class="meal-bloc__text--price">35€</p>
+                </div>
             </div>
             
         </section>
 
         <section class="main-course">
-            <h3>PLATS</h3>
-
+            <h3 class="main-course__title">PLATS</h3>
 
             <div class="meal-bloc">
-                <div class="meal-bloc__text">
+                <div class="meal-bloc__title">
                     <h3>Noix de coquilles Saint-Jacques</h3>
+                </div>
+                <div class="meal-bloc__text">
                     <p>Sur lit de purée de céleri-rave</p>
+                    <p class="meal-bloc__text--price">40€</p>
                 </div>
-                <div class="meal-bloc__price">40€</div>
             </div>
 
             <div class="meal-bloc">
-                <div class="meal-bloc__text">
+                <div class="meal-bloc__title">
                     <h3>Langoustine poêlée</h3>
-                    <p>Purée de patate douce</p>
                 </div>
-                <div class="meal-bloc__price">35€</div>
+                <div class="meal-bloc__text">
+                    <p>Purée de patate douce</p>
+                    <p class="meal-bloc__text--price">35€</p>
+                </div>
             </div>
 
             <div class="meal-bloc">
-                <div class="meal-bloc__text">
+                <div class="meal-bloc__title">
                     <h3>Mijoté de queue de boeuf</h3>
-                    <p>Et riz sauvage aux zestes de citron</p>
                 </div>
-                <div class="meal-bloc__price">44€</div>
+                <div class="meal-bloc__text">
+                    <p>Et riz sauvage aux zestes de citron</p>
+                    <p class="meal-bloc__text--price">44€</p>
+                </div>
             </div>
 
         </section>
 
         <section class="dessert">
-            <h3>DESSERTS</h3>
-
+            <h3 class="dessert__title">DESSERTS</h3>
 
             <div class="meal-bloc">
-                <div class="meal-bloc__text">
+                <div class="meal-bloc__title">
                     <h3>Macaron noisette et chocolat</h3>
-                    <p>Glace au caramel brun et sel de Guérande</p>
                 </div>
-                <div class="meal-bloc__price">18€</div>
+                <div class="meal-bloc__text">
+                    <p>Glace a caramel brun et sel de Guérande</p>
+                    <p class="meal-bloc__text--price">18€</p>
+                </div>
             </div>
 
             <div class="meal-bloc">
-                <div class="meal-bloc__text">
+                <div class="meal-bloc__title">
                     <h3>Baba au rhum revisité</h3>
-                    <p>Avec son coulis de citron</p>
                 </div>
-                <div class="meal-bloc__price">22€</div>
+                <div class="meal-bloc__text">
+                    <p>Avec son coulis de citron</p>
+                    <p class="meal-bloc__text--price">22€</p>
+                </div>
             </div>
 
             <div class="meal-bloc">
-                <div class="meal-bloc__text">
+                <div class="meal-bloc__title">
                     <h3>Tarte au citron meringuée</h3>
-                    <p>Déstructurée</p>
                 </div>
-                <div class="meal-bloc__price">23€</div>
+                <div class="meal-bloc__text">
+                    <p>Déstructurée</p>
+                    <p class="meal-bloc__text--price">23€</p>
+                </div>
             </div>
 
         </section>
 
         <a href="" class="btn-buy">Commander</a>
-        <!-- insérer le btn commande ici  -->
 
     </main>
     <footer>
@@ -136,7 +156,7 @@
             <a href="" class="footer-link__link">Devenir partenaire</a> 
         </div>
         <a href="" class="footer-link__link">Mentions légales</a>
-        <a href="" class="footer-link__link">Contact</a>
+        <a href="mailto:contact@ohmyfood.com" class="footer-link__link" >Contact</a>
     </footer>
 </body>
 </html>

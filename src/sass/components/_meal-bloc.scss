@@ -1,0 +1,33 @@
+@import "../utils/variables";
+@import "../utils/mixins";
+
+.meal-bloc {
+    @include box-shadow;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    background-color: $clr-white;
+
+    &__title {
+        padding: 0.5rem 0rem 0rem 0.7rem;        overflow: hidden;
+        overflow: hidden;
+
+        h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.3rem;
+        }
+    }
+
+    &__text {
+        display: flex;
+        justify-content: space-between;
+        padding: 0rem 1.5rem 0.5rem 0.7rem;
+        font-size: 0.9rem;
+        font-weight: 300;
+        overflow: hidden;
+    
+        &--price {
+            font-weight: bold;
+        }
+    }
+}

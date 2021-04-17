@@ -55,7 +55,9 @@ a {
   border-radius: 2rem;
   box-shadow: 0.1rem 0.1rem 0.5rem grey;
   cursor: pointer;
-  margin-bottom: 2rem;
+  margin-bottom: 3.5rem;
+  justify-content: center;
+  width: 12rem;
 }
 .btn-buy:hover {
   opacity: 0.8;
@@ -104,6 +106,34 @@ a {
   right: 3rem;
 }
 
+.meal-bloc {
+  box-shadow: 0.25rem 0.25rem 0.5rem #e9e9e9;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  background-color: white;
+}
+.meal-bloc__title {
+  padding: 0.5rem 0rem 0rem 0.7rem;
+  overflow: hidden;
+  overflow: hidden;
+}
+.meal-bloc__title h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.meal-bloc__text {
+  display: flex;
+  justify-content: space-between;
+  padding: 0rem 1.5rem 0.5rem 0.7rem;
+  font-size: 0.9rem;
+  font-weight: 300;
+  overflow: hidden;
+}
+.meal-bloc__text--price {
+  font-weight: bold;
+}
+
 footer {
   background-color: #353535;
   color: white;
@@ -133,7 +163,7 @@ footer .footer-link__link {
 header {
   font-family: "Shrikhand", cursive;
   box-shadow: 0 0 0.5rem 0.1rem #c2c2c2;
-  padding: 1rem;
+  padding: 1rem 1rem 0.5rem 1rem;
   position: relative;
   z-index: 10;
 }
@@ -330,6 +360,86 @@ header .previous-arrow {
   font-size: 1.5rem;
   margin-top: 2rem;
   margin-bottom: 1rem;
+}
+
+.restaurant-page {
+  background-color: #f6f6f6;
+}
+.restaurant-page .top-img {
+  height: 12rem;
+  width: 100%;
+  border-radius: 1rem 1rem 0 0;
+  object-fit: cover;
+  height: 17rem;
+  border-radius: 0rem;
+}
+.restaurant-page .restaurant-title {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  z-index: 1000;
+  font-family: "Shrikhand", cursive;
+  background-color: #f6f6f6;
+  border-radius: 2rem;
+  height: 5rem;
+  margin-top: -30px;
+}
+.restaurant-page .restaurant-title__h2 {
+  padding-top: 2rem;
+  font-size: 1.7rem;
+}
+.restaurant-page .restaurant-title__icon {
+  padding-top: 1.5rem;
+  font-size: 1.7rem;
+}
+.restaurant-page .entry {
+  padding: 1rem;
+}
+.restaurant-page .entry__title {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+.restaurant-page .entry__title::after {
+  background-color: #99E2D0;
+  content: "";
+  height: 0.2rem;
+  width: 2.8rem;
+  margin-top: 0.3rem;
+}
+.restaurant-page .main-course {
+  padding: 1rem;
+}
+.restaurant-page .main-course__title {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+.restaurant-page .main-course__title::after {
+  background-color: #99E2D0;
+  content: "";
+  height: 0.2rem;
+  width: 2.8rem;
+  margin-top: 0.3rem;
+}
+.restaurant-page .dessert {
+  padding: 1rem;
+}
+.restaurant-page .dessert__title {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+.restaurant-page .dessert__title::after {
+  background-color: #99E2D0;
+  content: "";
+  height: 0.2rem;
+  width: 2.8rem;
+  margin-top: 0.3rem;
 }
 
 /*# sourceMappingURL=style.css.map */

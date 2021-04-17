@@ -20,102 +20,121 @@
         <h1>ohmyfood</h1>
     </header>
 
-    <main>
-        <img class="top-img" src="" alt="">
+    <main class="restaurant-page">
+        <img class="top-img" src="./assets/delice-sens.jpg" alt="image représentant le restaurant le delice des sens">
         
-        <h2 class="restaurant-title">Le délice des sens</h2>
+
+        <div class="restaurant-title">
+            <h2 class="restaurant-title__h2">Le délice des sens</h2>
+            <i class="restaurant-title__icon far fa-heart"></i> 
+        </div>
 
         <section class="entry">
-            <h3>ENTRÉES</h3>
+            <h3 class="entry__title">ENTRÉES</h3>
 
             <div class="meal-bloc">
-                <div class="meal-bloc__text">
+                <div class="meal-bloc__title">
                     <h3>Tartare de thon</h3>
+                </div>
+                <div class="meal-bloc__text">
                     <p>Assaisonné au yuzu</p>
+                    <p class="meal-bloc__text--price">25€</p>
                 </div>
-                <div class="meal-bloc__price">25€</div>
             </div>
 
             <div class="meal-bloc">
+                <div class="meal-bloc__title">
+                    <h3>Bouchée de homard croustillant</h3>
+                </div>
                 <div class="meal-bloc__text">
-                    <h3>Bouchée de hommard croustillant</h3>
                     <p>Et sa farandole de petits légumes</p>
+                    <p class="meal-bloc__text--price">35€</p>
                 </div>
-                <div class="meal-bloc__price">35€</div>
             </div>
 
             <div class="meal-bloc">
-                <div class="meal-bloc__text">
-                    <h3>Velouté de cèpes</h3>
-                    <p>Aux truffes</p>
+                <div class="meal-bloc__title">
+                    <h3>Velouté de cèpres</h3>
                 </div>
-                <div class="meal-bloc__price">20€</div>
+                <div class="meal-bloc__text">
+                    <p>Aux truffes</p>
+                    <p class="meal-bloc__text--price">20€</p>
+                </div>
             </div>
             
         </section>
 
         <section class="main-course">
-            <h3>PLATS</h3>
-
+            <h3 class="main-course__title">PLATS</h3>
 
             <div class="meal-bloc">
-                <div class="meal-bloc__text">
+                <div class="meal-bloc__title">
                     <h3>Poulet rôti aux herbes de Provence</h3>
+                </div>
+                <div class="meal-bloc__text">
                     <p>Et sa crème de truffe</p>
+                    <p class="meal-bloc__text--price">40€</p>
                 </div>
-                <div class="meal-bloc__price">40€</div>
             </div>
 
             <div class="meal-bloc">
-                <div class="meal-bloc__text">
+                <div class="meal-bloc__title">
                     <h3>Langouste rôtie</h3>
-                    <p>Et ses légumes de saison</p>
                 </div>
-                <div class="meal-bloc__price">35€</div>
-            </div>
-
-            <div class="meal-bloc">
                 <div class="meal-bloc__text">
-                    <h3>Côte de boeuf Angus</h3>
-                    <p>Et sa purée de panais</p>
+                    <p>Et ses légumes de saison</p>
+                    <p class="meal-bloc__text--price">35€</p>
                 </div>
-                <div class="meal-bloc__price">44€</div>
+            </div>
+          
+            <div class="meal-bloc">
+                <div class="meal-bloc__title">
+                    <h3>Côte de boeuf Angus</h3>
+                </div>
+                <div class="meal-bloc__text">
+                    <p>Et sa purée de panais</p>
+                    <p class="meal-bloc__text--price">44€</p>
+                </div>
             </div>
 
         </section>
 
         <section class="dessert">
-            <h3>DESSERTS</h3>
-
+            <h3 class="dessert__title">DESSERTS</h3>
 
             <div class="meal-bloc">
+                <div class="meal-bloc__title">
+                    <h3>Farandole de desserts</h3>
+                </div>
                 <div class="meal-bloc__text">
-                    <h3>Franadole de desserts</h3>
                     <p>Du chef</p>
+                    <p class="meal-bloc__text--price">18€</p>
                 </div>
-                <div class="meal-bloc__price">18€</div>
             </div>
 
             <div class="meal-bloc">
-                <div class="meal-bloc__text">
+                <div class="meal-bloc__title">
                     <h3>Crème brulée</h3>
-                    <p>Revisitée</p>
                 </div>
-                <div class="meal-bloc__price">22€</div>
+                <div class="meal-bloc__text">
+                    <p>Revisitée</p>
+                    <p class="meal-bloc__text--price">22€</p>
+                </div>
             </div>
 
             <div class="meal-bloc">
-                <div class="meal-bloc__text">
+                <div class="meal-bloc__title">
                     <h3>Tiramisu</h3>
-                    <p>A la noisette</p>
                 </div>
-                <div class="meal-bloc__price">23€</div>
+                <div class="meal-bloc__text">
+                    <p>A la noisette</p>
+                    <p class="meal-bloc__text--price">23€</p>
+                </div>
             </div>
 
         </section>
 
         <a href="" class="btn-buy">Commander</a>
-        <!-- insérer le btn commande ici  -->
 
     </main>
     <footer>
@@ -129,7 +148,7 @@
             <a href="" class="footer-link__link">Devenir partenaire</a> 
         </div>
         <a href="" class="footer-link__link">Mentions légales</a>
-        <a href="" class="footer-link__link">Contact</a>
+        <a href="mailto:contact@ohmyfood.com" class="footer-link__link" >Contact</a>
     </footer>
 </body>
 </html>

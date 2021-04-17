@@ -1,0 +1,93 @@
+@import "../utils/variables";
+@import "../utils/mixins";
+
+.restaurant-page {
+    background-color: $clr-light-blue;
+    
+    .top-img {
+        @include img-card;
+        height: 17rem;
+        border-radius: 0rem;
+    }
+    
+    .restaurant-title {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: relative;
+        z-index: 1000;
+        font-family: $shrikhand-typo;
+        background-color: $clr-light-blue;
+        border-radius: 2rem;
+        height: 5rem;
+        margin-top: -30px;
+    
+        &__h2 {
+            padding-top: 2rem;
+            font-size: 1.7rem;
+        }
+
+        &__icon {
+            padding-top: 1.5rem;
+            font-size: 1.7rem;
+        }
+    }
+    
+    
+    .entry {
+        padding: 1rem;
+
+        &__title {
+            display: flex;
+            flex-direction: column;
+            font-size: 1.1rem;
+            font-weight: 300;
+
+            &::after {
+                background-color: $clr-tertiary;
+                content: "";
+                height: 0.2rem;
+                width: 2.8rem;
+                margin-top: 0.3rem;
+            }  
+        }
+    }
+    
+    .main-course {
+        padding: 1rem;
+
+        &__title {
+            display: flex;
+            flex-direction: column;
+            font-size: 1.1rem;
+            font-weight: 300;
+
+            &::after {
+                background-color: $clr-tertiary;
+                content: "";
+                height: 0.2rem;
+                width: 2.8rem;
+                margin-top: 0.3rem;
+            }  
+        }
+    }
+    
+    .dessert {
+        padding: 1rem;
+
+        &__title {
+            display: flex;
+            flex-direction: column;
+            font-size: 1.1rem;
+            font-weight: 300;
+
+            &::after {
+                background-color: $clr-tertiary;
+                content: "";
+                height: 0.2rem;
+                width: 2.8rem;
+                margin-top: 0.3rem;
+            }  
+        }
+    }
+}

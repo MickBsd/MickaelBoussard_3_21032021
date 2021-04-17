@@ -20,96 +20,115 @@
         <h1>ohmyfood</h1>
     </header>
 
-    <main>
-        <img class="top-img" src="" alt="">
+    <main class="restaurant-page">
+        <img class="top-img" src="./assets/a-la-francaise.jpg" alt="image représentant le restaurant a la francaise">
         
-        <h2 class="restaurant-title">À la française</h2>
+        <div class="restaurant-title">
+            <h2 class="restaurant-title__h2">À la française</h2>
+            <i class="restaurant-title__icon far fa-heart"></i> 
+        </div>
 
         <section class="entry">
-            <h3>ENTRÉES</h3>
+            <h3 class="entry__title">ENTRÉES</h3>
 
             <div class="meal-bloc">
-                <div class="meal-bloc__text">
+                <div class="meal-bloc__title">
                     <h3>Tartare de poulpe acidulé</h3>
-                    <p>Aux zestes d'orange</p>
                 </div>
-                <div class="meal-bloc__price">25€</div>
+                <div class="meal-bloc__text">
+                    <p>Au zestes d'orange</p>
+                    <p class="meal-bloc__text--price">25€</p>
+                </div>
             </div>
 
             <div class="meal-bloc">
-                <div class="meal-bloc__text">
+                <div class="meal-bloc__title">
                     <h3>Velouté de légumes d'antan</h3>
-                    <p>Carottes, panais, topinambour</p>
                 </div>
-                <div class="meal-bloc__price">35€</div>
+                <div class="meal-bloc__text">
+                    <p>Carotes, panais, topinambour</p>
+                    <p class="meal-bloc__text--price">35€</p>
+                </div>
             </div>
 
             <div class="meal-bloc">
-                <div class="meal-bloc__text">
+                <div class="meal-bloc__title">
                     <h3>Soupe à l'oignon</h3>
-                    <p>Revisitée</p>
                 </div>
-                <div class="meal-bloc__price">20€</div>
+                <div class="meal-bloc__text">
+                    <p>Revisitée</p>
+                    <p class="meal-bloc__text--price">20€</p>
+                </div>
             </div>
             
         </section>
 
         <section class="main-course">
-            <h3>PLATS</h3>
-
+            <h3 class="main-course__title">PLATS</h3>
 
             <div class="meal-bloc">
-                <div class="meal-bloc__text">
+                <div class="meal-bloc__title">
                     <h3>Coquilles Saint-Jacques</h3>
+                </div>
+                <div class="meal-bloc__text">
                     <p>Accompagnée d'une purée de panais</p>
+                    <p class="meal-bloc__text--price">40€</p>
                 </div>
-                <div class="meal-bloc__price">40€</div>
             </div>
 
             <div class="meal-bloc">
-                <div class="meal-bloc__text">
+                <div class="meal-bloc__title">
                     <h3>Magret de canard</h3>
-                    <p>Et parmentier de pommes de terre</p>
                 </div>
-                <div class="meal-bloc__price">35€</div>
+                <div class="meal-bloc__text">
+                    <p>Et parmentier de pommes de terre</p>
+                    <p class="meal-bloc__text--price">35€</p>
+                </div>
             </div>
 
             <div class="meal-bloc">
-                <div class="meal-bloc__text">
-                    <h3>Pigeonneau d'Ile-et-Vilaine</h3>
-                    <p>Sur son lit de gnocchis aux légumes</p>
+                <div class="meal-bloc__title">
+                    <h3>Pigeonneaud'Ile-et-Vilaine</h3>
                 </div>
-                <div class="meal-bloc__price">44€</div>
+                <div class="meal-bloc__text">
+                    <p>Sur son lit de gnocchis au légumes</p>
+                    <p class="meal-bloc__text--price">44€</p>
+                </div>
             </div>
 
         </section>
 
         <section class="dessert">
-            <h3>DESSERTS</h3>
-
+            <h3 class="dessert__title">DESSERTS</h3>
 
             <div class="meal-bloc">
+                <div class="meal-bloc__title">
+                    <h3>Pétales de violettes glacées</h3>
+                </div>
                 <div class="meal-bloc__text">
-                    <h3>Pétales de violettes glacés</h3>
                     <p>Et purée de noisettes</p>
+                    <p class="meal-bloc__text--price">18€</p>
                 </div>
-                <div class="meal-bloc__price">18€</div>
             </div>
 
             <div class="meal-bloc">
-                <div class="meal-bloc__text">
+                <div class="meal-bloc__title">
                     <h3>Fondant au chocolat</h3>
-                    <p>Revisitée</p>
                 </div>
-                <div class="meal-bloc__price">22€</div>
+                <div class="meal-bloc__text">
+                    <p>Revisité</p>
+                    <p class="meal-bloc__text--price">22€</p>
+                </div>
             </div>
 
             <div class="meal-bloc">
-                <div class="meal-bloc__text">
-                    <h3>Millefeuille croustillant</h3>
-                    <p>Myrtilles et pâte d'amande</p>
+                <div class="meal-bloc__title">
+                    <h3>Millefeuille ceoustillant</h3>
                 </div>
-                <div class="meal-bloc__price">23€</div>
+                <div class="meal-bloc__text">
+                    <p>Myrtilles et pâte d'amande</p>
+                    <p class="meal-bloc__text--price">23€</p>
+                </div>
             </div>
 
         </section>
@@ -129,7 +148,7 @@
             <a href="" class="footer-link__link">Devenir partenaire</a> 
         </div>
         <a href="" class="footer-link__link">Mentions légales</a>
-        <a href="" class="footer-link__link">Contact</a>
+        <a href="mailto:contact@ohmyfood.com" class="footer-link__link" >Contact</a>
     </footer>
 </body>
 </html>

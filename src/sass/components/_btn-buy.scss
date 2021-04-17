@@ -3,5 +3,7 @@
 
 .btn-buy {
     @include btn-primary;
-    margin-bottom: 2rem;
+    margin-bottom: 3.5rem;
+    justify-content: center;
+    width: 12rem;
 }
