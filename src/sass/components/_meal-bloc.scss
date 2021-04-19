@@ -8,13 +8,18 @@
     margin-top: 1rem;
     background-color: $clr-white;
 
+    
+
     &__title {
-        padding: 0.5rem 0rem 0rem 0.7rem;        overflow: hidden;
-        overflow: hidden;
+        padding: 0.5rem 0rem 0rem 0.7rem;        
 
         h3 {
             font-size: 1.1rem;
             margin-bottom: 0.3rem;
+            width: 100%;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden; 
         }
     }
 
@@ -23,11 +28,21 @@
         justify-content: space-between;
         padding: 0rem 1.5rem 0.5rem 0.7rem;
         font-size: 0.9rem;
-        font-weight: 300;
-        overflow: hidden;
+        font-weight: 300; 
+        
+        p {
+            width: 85%;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;    
+        }
     
         &--price {
+            display: flex;
+            justify-content: flex-end;            
             font-weight: bold;
+            width: 15%;
         }
     }
+   
 }

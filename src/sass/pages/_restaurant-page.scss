@@ -3,6 +3,7 @@
 
 .restaurant-page {
     background-color: $clr-light-blue;
+    padding-bottom: 1rem;
     
     .top-img {
         @include img-card;
@@ -90,4 +91,10 @@
             }  
         }
     }
+
+    .btn-buy-section {
+
+    }
+
+
 }

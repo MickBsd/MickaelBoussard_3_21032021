@@ -55,7 +55,7 @@ a {
   border-radius: 2rem;
   box-shadow: 0.1rem 0.1rem 0.5rem grey;
   cursor: pointer;
-  margin-bottom: 3.5rem;
+  margin-bottom: 3rem;
   justify-content: center;
   width: 12rem;
 }
@@ -115,12 +115,14 @@ a {
 }
 .meal-bloc__title {
   padding: 0.5rem 0rem 0rem 0.7rem;
-  overflow: hidden;
-  overflow: hidden;
 }
 .meal-bloc__title h3 {
   font-size: 1.1rem;
   margin-bottom: 0.3rem;
+  width: 100%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .meal-bloc__text {
   display: flex;
@@ -128,10 +130,18 @@ a {
   padding: 0rem 1.5rem 0.5rem 0.7rem;
   font-size: 0.9rem;
   font-weight: 300;
+}
+.meal-bloc__text p {
+  width: 85%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
   overflow: hidden;
 }
 .meal-bloc__text--price {
+  display: flex;
+  justify-content: flex-end;
   font-weight: bold;
+  width: 15%;
 }
 
 footer {
@@ -364,6 +374,7 @@ header .previous-arrow {
 
 .restaurant-page {
   background-color: #f6f6f6;
+  padding-bottom: 1rem;
 }
 .restaurant-page .top-img {
   height: 12rem;
