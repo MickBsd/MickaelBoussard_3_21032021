@@ -22,6 +22,7 @@
 @keyframes loader {
   100% {
     opacity: 0;
+    z-index: -1;
   }
 }
 @keyframes tower {
@@ -168,6 +169,7 @@ a {
 @keyframes loader {
   100% {
     opacity: 0;
+    z-index: -1;
   }
 }
 @keyframes tower {
@@ -378,7 +380,7 @@ header .previous-arrow {
 
 .loader {
   background-color: #f5edff;
-  animation: loader 4s;
+  animation: loader 3s;
   animation-delay: 2s;
   animation-fill-mode: both;
   align-items: center;
@@ -554,6 +556,7 @@ header .previous-arrow {
 @keyframes loader {
   100% {
     opacity: 0;
+    z-index: -1;
   }
 }
 @keyframes tower {

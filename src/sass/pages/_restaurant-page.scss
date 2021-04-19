@@ -6,9 +6,6 @@
     background-color: $clr-light-blue;
     padding-bottom: 1rem;
     
-
-
-
     .delay-1 {
         animation-delay: 0.1s;    
     }
@@ -36,7 +33,6 @@
     .delay-9 {
         animation-delay: 0.9s;    
     }
-
 
     .top-img {
         @include img-card;
@@ -90,11 +86,8 @@
         }        
     }
     
-    
-    
     .entry {
         padding: 1rem;
-       
 
         &__title {
             display: flex;
@@ -149,6 +142,4 @@
             }  
         }
     }
-
-   
 }
