@@ -8,16 +8,25 @@
     margin-bottom: 1rem;
     margin-top: 1rem;
     background-color: $clr-white;
-
+    display: flex;
     animation: apparition-meal 0.5s;
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
-    transform: scale(0);    
+    transform: scale(0); 
+    cursor: pointer;
+    
+    &__infos {
+        display: flex;
+        justify-content: space-between;
+        background-color: green;
+        width: 80%;
+    }
 
-    &__title {
-        padding: 0.5rem 0rem 0rem 0.7rem;        
+    &__header {
+        width: 100%;
 
         h3 {
+            padding: 0.5rem 0rem 0rem 0.7rem;        
             font-size: 1.1rem;
             margin-bottom: 0.3rem;
             width: 100%;
@@ -25,28 +34,28 @@
             text-overflow: ellipsis;
             overflow: hidden; 
         }
-    }
-
-    &__text {
-        display: flex;
-        justify-content: space-between;
-        padding: 0rem 0rem 0.5rem 0.7rem;
-        font-size: 0.9rem;
-        font-weight: 300; 
-        
+            
         p {
-            width: 85%;
+            display: flex;
+            justify-content: space-between;
+            padding: 0rem 0rem 0.5rem 0.7rem;
+            font-size: 0.9rem;
+            font-weight: 300; 
+            width: 100%;
             white-space: nowrap;
             text-overflow: ellipsis;
             overflow: hidden;    
         }
-    
-        &--price {
-            display: flex;
-            justify-content: center;            
-            font-weight: bold;
-            width: 15%;
-        }
+    }
+
+    &__price {   
+        display: flex;
+        justify-content: center;  
+        align-items: center;       
+        font-weight: bold;
+        font-size: 1rem;
+        width: 10%;
+        margin-right: 0.5rem;
     }
 
     &__confirmation {
@@ -54,15 +63,17 @@
         justify-content: center;
         align-items: center;
         background-color: $clr-tertiary;
-        height: 100%;
-        width: 5rem;
-
+        height: auto;
+        width: 20%;
+        border-radius: 0rem 1rem 1rem 0rem;
+        transform: scale(0);
         i {
             padding: 0.3rem;
             border: solid 0.1rem $clr-tertiary;
             border-radius: 2rem;
             background-color: $clr-white;
             color:$clr-tertiary;
+            
         }
     }
    
