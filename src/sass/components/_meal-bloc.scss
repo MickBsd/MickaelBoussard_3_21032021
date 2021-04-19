@@ -14,16 +14,31 @@
     animation-fill-mode: forwards;
     transform: scale(0); 
     cursor: pointer;
+    overflow: hidden;
+
+    &:hover &__confirmation {
+        margin-right: 0rem;
+        transform: rotate(0);
+    }
+
+    &:hover i {
+        transform: rotate(0);
+    }
     
     &__infos {
         display: flex;
         justify-content: space-between;
-        background-color: green;
-        width: 80%;
+        width: 100%;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden; 
     }
 
     &__header {
         width: 100%;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden; 
 
         h3 {
             padding: 0.5rem 0rem 0rem 0.7rem;        
@@ -36,8 +51,6 @@
         }
             
         p {
-            display: flex;
-            justify-content: space-between;
             padding: 0rem 0rem 0.5rem 0.7rem;
             font-size: 0.9rem;
             font-weight: 300; 
@@ -46,6 +59,8 @@
             text-overflow: ellipsis;
             overflow: hidden;    
         }
+
+       
     }
 
     &__price {   
@@ -64,17 +79,21 @@
         align-items: center;
         background-color: $clr-tertiary;
         height: auto;
-        width: 20%;
+        width: 6rem;
         border-radius: 0rem 1rem 1rem 0rem;
-        transform: scale(0);
+        margin: 0 -10rem 0 0;
+        transition-duration: 1s;
+
         i {
+            font-size: 1.5rem;
             padding: 0.3rem;
             border: solid 0.1rem $clr-tertiary;
             border-radius: 2rem;
             background-color: $clr-white;
             color:$clr-tertiary;
-            
+            transform: rotate(180deg);
+            transition-duration: 1s;
+            transition-timing-function: ease;
         }
     }
-   
 }

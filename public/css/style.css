@@ -195,15 +195,28 @@ a {
   animation-fill-mode: forwards;
   transform: scale(0);
   cursor: pointer;
+  overflow: hidden;
+}
+.meal-bloc:hover .meal-bloc__confirmation {
+  margin-right: 0rem;
+  transform: rotate(0);
+}
+.meal-bloc:hover i {
+  transform: rotate(0);
 }
 .meal-bloc__infos {
   display: flex;
   justify-content: space-between;
-  background-color: green;
-  width: 80%;
+  width: 100%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .meal-bloc__header {
   width: 100%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .meal-bloc__header h3 {
   padding: 0.5rem 0rem 0rem 0.7rem;
@@ -215,8 +228,6 @@ a {
   overflow: hidden;
 }
 .meal-bloc__header p {
-  display: flex;
-  justify-content: space-between;
   padding: 0rem 0rem 0.5rem 0.7rem;
   font-size: 0.9rem;
   font-weight: 300;
@@ -240,16 +251,21 @@ a {
   align-items: center;
   background-color: #99E2D0;
   height: auto;
-  width: 20%;
+  width: 6rem;
   border-radius: 0rem 1rem 1rem 0rem;
-  transform: scale(0);
+  margin: 0 -10rem 0 0;
+  transition-duration: 1s;
 }
 .meal-bloc__confirmation i {
+  font-size: 1.5rem;
   padding: 0.3rem;
   border: solid 0.1rem #99E2D0;
   border-radius: 2rem;
   background-color: white;
   color: #99E2D0;
+  transform: rotate(180deg);
+  transition-duration: 1s;
+  transition-timing-function: ease;
 }
 
 footer {
