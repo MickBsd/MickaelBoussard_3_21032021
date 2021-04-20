@@ -109,7 +109,6 @@ a {
 
 .restaurant-card {
   margin-bottom: 1rem;
-  border: solid 0.1rem transparent;
   border-radius: 1rem;
   box-shadow: 0.25rem 0.25rem 0.5rem #e9e9e9;
 }
@@ -131,7 +130,7 @@ a {
 }
 .restaurant-card__icon--empty {
   position: absolute;
-  right: 5rem;
+  right: 3rem;
   font-size: 1.5rem;
 }
 .restaurant-card__icon--empty:hover {
@@ -139,7 +138,7 @@ a {
 }
 .restaurant-card__icon--fill {
   position: absolute;
-  right: 5rem;
+  right: 3rem;
   font-size: 1.5rem;
   opacity: 0;
   transition: all 0.2s ease-in-out;
@@ -353,7 +352,6 @@ header .previous-arrow {
 
 .restaurant-card {
   margin-bottom: 1rem;
-  border: solid 0.1rem transparent;
   border-radius: 1rem;
   box-shadow: 0.25rem 0.25rem 0.5rem #e9e9e9;
 }
@@ -375,7 +373,7 @@ header .previous-arrow {
 }
 .restaurant-card__icon--empty {
   position: absolute;
-  right: 5rem;
+  right: 3rem;
   font-size: 1.5rem;
 }
 .restaurant-card__icon--empty:hover {
@@ -383,7 +381,7 @@ header .previous-arrow {
 }
 .restaurant-card__icon--fill {
   position: absolute;
-  right: 5rem;
+  right: 3rem;
   font-size: 1.5rem;
   opacity: 0;
   transition: all 0.2s ease-in-out;
@@ -650,7 +648,7 @@ header .previous-arrow {
 }
 .restaurant-page .restaurant-title__icon--empty {
   position: absolute;
-  right: 3rem;
+  right: 1.5rem;
   padding-top: 1.5rem;
   font-size: 1.5rem;
 }
@@ -659,7 +657,7 @@ header .previous-arrow {
 }
 .restaurant-page .restaurant-title__icon--fill {
   position: absolute;
-  right: 3rem;
+  right: 1.5rem;
   padding-top: 1.5rem;
   font-size: 1.5rem;
   opacity: 0;

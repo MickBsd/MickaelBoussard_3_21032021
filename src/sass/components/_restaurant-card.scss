@@ -3,7 +3,6 @@
 
 .restaurant-card {
     margin-bottom: 1rem;
-    border: solid 0.1rem transparent;
     border-radius: 1rem;
     @include box-shadow;
 
@@ -16,7 +15,6 @@
         justify-content:space-between;
         align-items: center;
         font-size: 1rem;
-
         margin: 0.5rem 1rem;
     }
 
@@ -25,9 +23,8 @@
     }
 
     &__icon--empty {
-        
         position: absolute;
-        right: 5rem;
+        right: 3rem;
         font-size: 1.5rem;
         &:hover {
             color: $clr-primary;
@@ -36,7 +33,7 @@
 
     &__icon--fill {
         position: absolute;
-        right: 5rem;
+        right: 3rem;
         font-size: 1.5rem;
         opacity: 0;  
         transition: all .2s ease-in-out;
@@ -49,5 +46,4 @@
             animation-fill-mode: forwards; 
         }
     } 
-
 }
