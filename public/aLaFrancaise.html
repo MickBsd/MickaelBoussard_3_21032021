@@ -10,10 +10,12 @@
     <title>ohmyfood</title>
 </head>
 <body>
+<!-- **********     HEADER     ********** -->
     <header>
         <a href="index.html"><i class="previous-arrow fas fa-arrow-left"></i></a>
         <h1>ohmyfood</h1>
     </header>
+<!-- **********     MAIN CONTENT     ********** -->
     <main class="restaurant-page">
         <img class="top-img" src="./assets/a-la-francaise.jpg" alt="image représentant le restaurant a la francaise">
         <div class="restaurant-title">
@@ -21,128 +23,131 @@
             <i class="restaurant-title__icon--empty far fa-heart"></i> 
             <i class="restaurant-title__icon--fill fas fa-heart"></i>
         </div>
-        <span class="restaurant-meal">
-
-        <section class="entry">
-            <h3 class="entry__title">ENTRÉES</h3>
-            <div class="meal-bloc delay-1">
-                <div class="meal-bloc__infos">
-                    <div class="meal-bloc__header">
-                        <h3 class="meal-bloc__title">Tartare de poulpe acidulé</h3>
-                        <p class="meal-bloc__text">Au zeste d'orange</p>
+        <div class="restaurant-meal">
+            <!-- **********     ENTRY CARD     ********** -->
+            <section class="entry">
+                <h3 class="entry__title">ENTRÉES</h3>
+                <div class="meal-bloc delay-1">
+                    <div class="meal-bloc__infos">
+                        <div class="meal-bloc__header">
+                            <h3 class="meal-bloc__title">Tartare de poulpe acidulé</h3>
+                            <p class="meal-bloc__text">Au zeste d'orange</p>
+                        </div>
+                        <div class="meal-bloc__price">25€</div>
                     </div>
-                    <div class="meal-bloc__price">25€</div>
-                </div>
-                <div class="meal-bloc__confirmation">
-                    <i class="meal-bloc__icon fa-check fas"></i>
-                </div>
-            </div>
-            <div class="meal-bloc delay-2">
-                <div class="meal-bloc__infos">
-                    <div class="meal-bloc__header">
-                        <h3 class="meal-bloc__title">Velouté de légumes d'antan</h3>
-                        <p class="meal-bloc__text">Carottes, panais, topinambour</p>
+                    <div class="meal-bloc__confirmation">
+                        <i class="meal-bloc__icon fa-check fas"></i>
                     </div>
-                    <div class="meal-bloc__price">35€</div>
                 </div>
-                <div class="meal-bloc__confirmation">
-                    <i class="meal-bloc__icon fa-check fas"></i>
-                </div>
-            </div>
-            <div class="meal-bloc delay-3">
-                <div class="meal-bloc__infos">
-                    <div class="meal-bloc__header">
-                        <h3 class="meal-bloc__title">Soupe à l'oignon</h3>
-                        <p class="meal-bloc__text">Revisitée</p>
+                <div class="meal-bloc delay-2">
+                    <div class="meal-bloc__infos">
+                        <div class="meal-bloc__header">
+                            <h3 class="meal-bloc__title">Velouté de légumes d'antan</h3>
+                            <p class="meal-bloc__text">Carottes, panais, topinambour</p>
+                        </div>
+                        <div class="meal-bloc__price">35€</div>
                     </div>
-                    <div class="meal-bloc__price">20€</div>
-                </div>
-                <div class="meal-bloc__confirmation">
-                    <i class="meal-bloc__icon fa-check fas"></i>
-                </div>
-            </div>
-        </section>
-        <section class="main-course">
-            <h3 class="main-course__title">PLATS</h3>
-            <div class="meal-bloc delay-4">
-                <div class="meal-bloc__infos">
-                    <div class="meal-bloc__header">
-                        <h3 class="meal-bloc__title">Coquilles Saint-Jacques</h3>
-                        <p class="meal-bloc__text">Accompagnée d'une purée de panais</p>
+                    <div class="meal-bloc__confirmation">
+                        <i class="meal-bloc__icon fa-check fas"></i>
                     </div>
-                    <div class="meal-bloc__price">40€</div>
                 </div>
-                <div class="meal-bloc__confirmation">
-                    <i class="meal-bloc__icon fa-check fas"></i>
-                </div>
-            </div>
-            <div class="meal-bloc delay-5">
-                <div class="meal-bloc__infos">
-                    <div class="meal-bloc__header">
-                        <h3 class="meal-bloc__title">Magret de canard</h3>
-                        <p class="meal-bloc__text">Et parmentier de pommes de terre</p>
+                <div class="meal-bloc delay-3">
+                    <div class="meal-bloc__infos">
+                        <div class="meal-bloc__header">
+                            <h3 class="meal-bloc__title">Soupe à l'oignon</h3>
+                            <p class="meal-bloc__text">Revisitée</p>
+                        </div>
+                        <div class="meal-bloc__price">20€</div>
                     </div>
-                    <div class="meal-bloc__price">35€</div>
-                </div>
-                <div class="meal-bloc__confirmation">
-                    <i class="meal-bloc__icon fa-check fas"></i>
-                </div>
-            </div>
-            <div class="meal-bloc delay-6">
-                <div class="meal-bloc__infos">
-                    <div class="meal-bloc__header">
-                        <h3 class="meal-bloc__title">Pigeonnau d'Ile-et-Vilaine</h3>
-                        <p class="meal-bloc__text">Sur son lit de gnocchis aux légumes</p>
+                    <div class="meal-bloc__confirmation">
+                        <i class="meal-bloc__icon fa-check fas"></i>
                     </div>
-                    <div class="meal-bloc__price">44€</div>
                 </div>
-                <div class="meal-bloc__confirmation">
-                    <i class="meal-bloc__icon fa-check fas"></i>
-                </div>
-            </div>
-        </section>
-        <section class="dessert">
-            <h3 class="dessert__title">DESSERTS</h3>
-            <div class="meal-bloc delay-7">
-                <div class="meal-bloc__infos">
-                    <div class="meal-bloc__header">
-                        <h3 class="meal-bloc__title">Pétales de violettes glacées</h3>
-                        <p class="meal-bloc__text">Et purée de noisettes</p>
+            </section>
+            <!-- **********     MAIN COURSE CARD     ********** -->
+            <section class="main-course">
+                <h3 class="main-course__title">PLATS</h3>
+                <div class="meal-bloc delay-4">
+                    <div class="meal-bloc__infos">
+                        <div class="meal-bloc__header">
+                            <h3 class="meal-bloc__title">Coquilles Saint-Jacques</h3>
+                            <p class="meal-bloc__text">Accompagnée d'une purée de panais</p>
+                        </div>
+                        <div class="meal-bloc__price">40€</div>
                     </div>
-                    <div class="meal-bloc__price">18€</div>
-                </div>
-                <div class="meal-bloc__confirmation">
-                    <i class="meal-bloc__icon fa-check fas"></i>
-                </div>
-            </div>
-            <div class="meal-bloc delay-8">
-                <div class="meal-bloc__infos">
-                    <div class="meal-bloc__header">
-                        <h3 class="meal-bloc__title">Fondant au chocolat</h3>
-                        <p class="meal-bloc__text">Revisité</p>
+                    <div class="meal-bloc__confirmation">
+                        <i class="meal-bloc__icon fa-check fas"></i>
                     </div>
-                    <div class="meal-bloc__price">22€</div>
                 </div>
-                <div class="meal-bloc__confirmation">
-                    <i class="meal-bloc__icon fa-check fas"></i>
-                </div>
-            </div>
-            <div class="meal-bloc delay-9">
-                <div class="meal-bloc__infos">
-                    <div class="meal-bloc__header">
-                        <h3 class="meal-bloc__title">Mille-feuille croustillant</h3>
-                        <p class="meal-bloc__text">Myrtilles et pâte d'amande</p>
+                <div class="meal-bloc delay-5">
+                    <div class="meal-bloc__infos">
+                        <div class="meal-bloc__header">
+                            <h3 class="meal-bloc__title">Magret de canard</h3>
+                            <p class="meal-bloc__text">Et parmentier de pommes de terre</p>
+                        </div>
+                        <div class="meal-bloc__price">35€</div>
                     </div>
-                    <div class="meal-bloc__price">23€</div>
+                    <div class="meal-bloc__confirmation">
+                        <i class="meal-bloc__icon fa-check fas"></i>
+                    </div>
                 </div>
-                <div class="meal-bloc__confirmation">
-                    <i class="meal-bloc__icon fa-check fas"></i>
+                <div class="meal-bloc delay-6">
+                    <div class="meal-bloc__infos">
+                        <div class="meal-bloc__header">
+                            <h3 class="meal-bloc__title">Pigeonnau d'Ile-et-Vilaine</h3>
+                            <p class="meal-bloc__text">Sur son lit de gnocchis aux légumes</p>
+                        </div>
+                        <div class="meal-bloc__price">44€</div>
+                    </div>
+                    <div class="meal-bloc__confirmation">
+                        <i class="meal-bloc__icon fa-check fas"></i>
+                    </div>
                 </div>
-            </div>
-        </section>
-        </span>
+            </section>
+            <!-- **********     DESSERT CARD     ********** -->
+            <section class="dessert">
+                <h3 class="dessert__title">DESSERTS</h3>
+                <div class="meal-bloc delay-7">
+                    <div class="meal-bloc__infos">
+                        <div class="meal-bloc__header">
+                            <h3 class="meal-bloc__title">Pétales de violettes glacées</h3>
+                            <p class="meal-bloc__text">Et purée de noisettes</p>
+                        </div>
+                        <div class="meal-bloc__price">18€</div>
+                    </div>
+                    <div class="meal-bloc__confirmation">
+                        <i class="meal-bloc__icon fa-check fas"></i>
+                    </div>
+                </div>
+                <div class="meal-bloc delay-8">
+                    <div class="meal-bloc__infos">
+                        <div class="meal-bloc__header">
+                            <h3 class="meal-bloc__title">Fondant au chocolat</h3>
+                            <p class="meal-bloc__text">Revisité</p>
+                        </div>
+                        <div class="meal-bloc__price">22€</div>
+                    </div>
+                    <div class="meal-bloc__confirmation">
+                        <i class="meal-bloc__icon fa-check fas"></i>
+                    </div>
+                </div>
+                <div class="meal-bloc delay-9">
+                    <div class="meal-bloc__infos">
+                        <div class="meal-bloc__header">
+                            <h3 class="meal-bloc__title">Mille-feuille croustillant</h3>
+                            <p class="meal-bloc__text">Myrtilles et pâte d'amande</p>
+                        </div>
+                        <div class="meal-bloc__price">23€</div>
+                    </div>
+                    <div class="meal-bloc__confirmation">
+                        <i class="meal-bloc__icon fa-check fas"></i>
+                    </div>
+                </div>
+            </section>
+        </div>
         <a href="" class="btn-buy">Commander</a>
     </main>
+<!-- **********     FOOTER     ********** -->
     <footer>
         <h2>ohmyfood</h2>
         <div class="footer-link">

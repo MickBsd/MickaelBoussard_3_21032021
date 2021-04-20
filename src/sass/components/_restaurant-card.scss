@@ -4,6 +4,7 @@
 .restaurant-card {
     margin-bottom: 1rem;
     border-radius: 1rem;
+    position: relative;
     @include box-shadow;
 
     @media only screen and (min-width : 768px) {
@@ -28,13 +29,8 @@
 
     &__icon--empty {
         position: absolute;
-        right: 3rem;
+        right: 1rem;
         font-size: 1.5rem;
-
-        @media only screen and (min-width : 768px) {
-            position: unset;         
-        }
-
         &:hover {
             color: $clr-primary;
         }
@@ -42,13 +38,12 @@
 
     &__icon--fill {
         position: absolute;
-        right: 3rem;
+        right: 1rem;
         font-size: 1.5rem;
         opacity: 0.2;  
         transition: all .2s ease-in-out;
 
         @media only screen and (min-width : 768px) {
-            position: unset;
         }
 
         &:hover {

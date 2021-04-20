@@ -24,6 +24,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
     height: 4rem;
     border-radius: 1.5rem;
     margin-bottom: 1.5rem;
@@ -32,7 +33,7 @@
     &__icon {
         font-size: 1.2rem;
         position: absolute;
-        left: 3rem;
+        left: 2rem;
     }
 
     &__text {
@@ -42,7 +43,7 @@
 
     &__number {
         position: absolute;
-        left: 0.5rem;
+        left: -0.5rem;
         background-color: $clr-primary;
         color: $clr-white;
         font-size: 0.8rem;

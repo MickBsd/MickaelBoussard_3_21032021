@@ -4,7 +4,6 @@
 @import "../utils/variables";
 @import "../utils/mixins";
 
-
 .loader {
     background-color: $clr-light-grey;
     animation: loader 3s;
@@ -19,7 +18,6 @@
     top: 0;
     width: 100%;
     height: 100%;
-
 
     &-1 {
         width: 1rem;
@@ -94,15 +92,24 @@
     margin-top: 1.5rem;
     padding: 1.5rem;
 
+    @media only screen and (min-width : 768px) {
+        display: flex;
+        flex-direction: column;;
+        align-items: center;                
+    }
+
     h2 {
         font-size: 1.5rem;
         margin-bottom: 1.5rem;
-        
     }
 
     .step-by-step-bloc {
         @include step-by-step-bloc;
         @include box-shadow;
+        
+        @media only screen and (min-width : 768px) {
+            width: 767px;              
+        }
        
         &__icon {
             color: $clr-light-black;
@@ -113,12 +120,17 @@
         @include step-by-step-bloc;
         @include box-shadow;
         background-color: $clr-light-grey;   
+
+        @media only screen and (min-width : 768px) {
+            width: 767px;              
+        }
     
         i {
             color:$clr-primary;
         }
     }
 }
+
 
 .restaurants {
     background-color: $clr-light-blue;

@@ -1,32 +1,32 @@
 @keyframes apparition-meal {
-    0% {
-        transform: scale(0);
-        opacity: 0%;
-      }
-      50% {
-        opacity: 0%;
-      }
-      100% {
-        transform: scale(1);
-        opacity: 100%;
-      }
+  0% {
+      transform: scale(0);
+      opacity: 0%;
+    }
+    50% {
+      opacity: 0%;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 100%;
+    }
 }
 
 @keyframes loader {
-    100% {
-        opacity: 0;
-        z-index: -1;
-      }
+  100% {
+      opacity: 0;
+      z-index: -1;
+    }
 }
 
 @keyframes tower {
-    0% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(0);
-    }
-    100% {
-        transform: scale(1);
-    }
+  0% {
+      transform: scale(1);
+  }
+  50% {
+      transform: scale(0);
+  }
+  100% {
+      transform: scale(1);
+  }
 }
