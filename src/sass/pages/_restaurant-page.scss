@@ -33,6 +33,9 @@
     .delay-9 {
         animation-delay: 0.9s;    
     }
+    .delay-10 {
+        animation-delay: 1s;    
+    }
 
     .top-img {
         @include img-card;
