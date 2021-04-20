@@ -7,7 +7,7 @@
     @include box-shadow;
 
     @media only screen and (min-width : 768px) {
-        // width: 45%;
+        width: 45%;
     }
 
     &__img {
@@ -32,7 +32,7 @@
         font-size: 1.5rem;
 
         @media only screen and (min-width : 768px) {
-            // position: unset;         
+            position: unset;         
         }
 
         &:hover {
@@ -48,7 +48,7 @@
         transition: all .2s ease-in-out;
 
         @media only screen and (min-width : 768px) {
-            // position: unset;
+            position: unset;
         }
 
         &:hover {
