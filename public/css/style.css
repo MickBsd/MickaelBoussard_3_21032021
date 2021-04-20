@@ -146,7 +146,7 @@ a {
   position: absolute;
   right: 1rem;
   font-size: 1.5rem;
-  opacity: 0.2;
+  opacity: 0;
   transition: all 0.2s ease-in-out;
 }
 .restaurant-card__icon--fill:hover {
@@ -395,7 +395,7 @@ header .previous-arrow {
   position: absolute;
   right: 1rem;
   font-size: 1.5rem;
-  opacity: 0.2;
+  opacity: 0;
   transition: all 0.2s ease-in-out;
 }
 .restaurant-card__icon--fill:hover {
