@@ -5,6 +5,15 @@
 .restaurant-page {
     background-color: $clr-light-blue;
     padding-bottom: 1rem;
+
+    @media only screen and (min-width : 768px) {
+        .restaurant-meal {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }    
+        
+    }
     
     .delay-1 {
         animation-delay: 0.1s;    
@@ -41,7 +50,10 @@
         @include img-card;
         height: 17rem;
         border-radius: 0rem;
-    }
+
+        @media only screen and (min-width : 768px) {
+            height: 25rem;        }
+        }
     
     .restaurant-title {
         display: flex;
@@ -88,9 +100,15 @@
             }
         }        
     }
+
+
     
     .entry {
-        padding: 1rem;
+        padding: 1rem;   
+        
+        @media only screen and (min-width : 768px) {
+            width: 30%;
+        }
 
         &__title {
             display: flex;
@@ -111,6 +129,10 @@
     .main-course {
         padding: 1rem;
 
+        @media only screen and (min-width : 768px) {
+            width: 30%;
+        }
+
         &__title {
             display: flex;
             flex-direction: column;
@@ -129,6 +151,10 @@
     
     .dessert {
         padding: 1rem;
+
+        @media only screen and (min-width : 768px) {
+            width: 30%;
+        }
 
         &__title {
             display: flex;

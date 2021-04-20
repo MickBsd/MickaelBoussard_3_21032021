@@ -6,6 +6,10 @@
     border-radius: 1rem;
     @include box-shadow;
 
+    @media only screen and (min-width : 768px) {
+        // width: 45%;
+    }
+
     &__img {
         @include img-card
     }
@@ -26,6 +30,11 @@
         position: absolute;
         right: 3rem;
         font-size: 1.5rem;
+
+        @media only screen and (min-width : 768px) {
+            // position: unset;         
+        }
+
         &:hover {
             color: $clr-primary;
         }
@@ -35,8 +44,13 @@
         position: absolute;
         right: 3rem;
         font-size: 1.5rem;
-        opacity: 0;  
+        opacity: 0.2;  
         transition: all .2s ease-in-out;
+
+        @media only screen and (min-width : 768px) {
+            // position: unset;
+        }
+
         &:hover {
             cursor: pointer;
             opacity: 1;

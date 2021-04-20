@@ -140,7 +140,7 @@ a {
   position: absolute;
   right: 3rem;
   font-size: 1.5rem;
-  opacity: 0;
+  opacity: 0.2;
   transition: all 0.2s ease-in-out;
 }
 .restaurant-card__icon--fill:hover {
@@ -383,7 +383,7 @@ header .previous-arrow {
   position: absolute;
   right: 3rem;
   font-size: 1.5rem;
-  opacity: 0;
+  opacity: 0.2;
   transition: all 0.2s ease-in-out;
 }
 .restaurant-card__icon--fill:hover {
@@ -551,10 +551,22 @@ header .previous-arrow {
   padding: 1.5rem;
   margin-top: 1.5rem;
 }
+@media only screen and (min-width: 768px) {
+  .restaurants {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
 .restaurants h2 {
   font-size: 1.5rem;
   margin-top: 2rem;
   margin-bottom: 1rem;
+}
+@media only screen and (min-width: 768px) {
+  .restaurants h2 {
+    width: 100%;
+  }
 }
 
 @keyframes apparition-meal {
@@ -590,6 +602,13 @@ header .previous-arrow {
 .restaurant-page {
   background-color: #f6f6f6;
   padding-bottom: 1rem;
+}
+@media only screen and (min-width: 768px) {
+  .restaurant-page .restaurant-meal {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
 }
 .restaurant-page .delay-1 {
   animation-delay: 0.1s;
@@ -628,6 +647,11 @@ header .previous-arrow {
   object-fit: cover;
   height: 17rem;
   border-radius: 0rem;
+}
+@media only screen and (min-width: 768px) {
+  .restaurant-page .top-img {
+    height: 25rem;
+  }
 }
 .restaurant-page .restaurant-title {
   display: flex;
@@ -674,6 +698,11 @@ header .previous-arrow {
 .restaurant-page .entry {
   padding: 1rem;
 }
+@media only screen and (min-width: 768px) {
+  .restaurant-page .entry {
+    width: 30%;
+  }
+}
 .restaurant-page .entry__title {
   display: flex;
   flex-direction: column;
@@ -690,6 +719,11 @@ header .previous-arrow {
 .restaurant-page .main-course {
   padding: 1rem;
 }
+@media only screen and (min-width: 768px) {
+  .restaurant-page .main-course {
+    width: 30%;
+  }
+}
 .restaurant-page .main-course__title {
   display: flex;
   flex-direction: column;
@@ -705,6 +739,11 @@ header .previous-arrow {
 }
 .restaurant-page .dessert {
   padding: 1rem;
+}
+@media only screen and (min-width: 768px) {
+  .restaurant-page .dessert {
+    width: 30%;
+  }
 }
 .restaurant-page .dessert__title {
   display: flex;

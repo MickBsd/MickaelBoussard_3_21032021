@@ -97,12 +97,13 @@
     h2 {
         font-size: 1.5rem;
         margin-bottom: 1.5rem;
+        
     }
 
     .step-by-step-bloc {
         @include step-by-step-bloc;
         @include box-shadow;
-
+       
         &__icon {
             color: $clr-light-black;
         }
@@ -123,10 +124,20 @@
     background-color: $clr-light-blue;
     padding: 1.5rem;
     margin-top: 1.5rem;
+
+    @media only screen and (min-width : 768px) {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
     
     h2 {
         font-size: 1.5rem;
         margin-top: 2rem;
         margin-bottom: 1rem;
+
+        @media only screen and (min-width : 768px) {
+            width: 100%;
+        }
     }
 }
