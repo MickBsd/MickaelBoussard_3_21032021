@@ -9,7 +9,7 @@
     margin-top: 1rem;
     background-color: $clr-white;
     display: flex;
-    animation: apparition-meal 0.5s;
+    animation: apparition-meal 0.5s 10s;
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
     transform: scale(0); 

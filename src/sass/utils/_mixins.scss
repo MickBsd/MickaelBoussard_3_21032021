@@ -34,6 +34,7 @@
         font-size: 1.2rem;
         position: absolute;
         left: 2rem;
+        margin-left: -0.5rem;
     }
 
     &__text {
@@ -61,5 +62,5 @@
 }
 
 @mixin box-shadow {
-    box-shadow: 0.25rem 0.25rem 0.5rem $clr-box-shadow;
+    box-shadow: 0.5rem 0.5rem 0.25rem $clr-box-shadow;
 }

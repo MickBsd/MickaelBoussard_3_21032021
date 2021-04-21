@@ -6,9 +6,18 @@
     box-sizing: border-box;
 }
 
+html {
+    min-width: 320px;
+}
+
 body {
     font-size: 62.5%;
     font-family: $roboto-typo;
+}
+
+main {
+    max-width: 1440px;
+    margin: auto;
 }
 
 a {

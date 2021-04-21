@@ -91,11 +91,12 @@
 .step-by-step {
     margin-top: 1.5rem;
     padding: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
 
     @media only screen and (min-width : 768px) {
-        display: flex;
-        flex-direction: column;;
-        align-items: center;                
+        
+        width: 750px;
     }
 
     h2 {
@@ -106,9 +107,13 @@
     .step-by-step-bloc {
         @include step-by-step-bloc;
         @include box-shadow;
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
         
         @media only screen and (min-width : 768px) {
-            width: 767px;              
+            width: 600px; 
+                        
         }
        
         &__icon {
@@ -120,9 +125,12 @@
         @include step-by-step-bloc;
         @include box-shadow;
         background-color: $clr-light-grey;   
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
 
         @media only screen and (min-width : 768px) {
-            width: 767px;              
+            width: 600px;              
         }
     
         i {
@@ -131,7 +139,7 @@
     }
 }
 
-.restaurants {
+#restaurants {
     background-color: $clr-light-blue;
     padding: 1.5rem;
     margin-top: 1.5rem;
