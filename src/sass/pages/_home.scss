@@ -59,13 +59,17 @@
 
     &__icon {
         font-size: 1rem;
-        margin-right: 1rem;
+        margin-right: 0.5rem;
     }
 
     &__town {
+        width: 10rem;
         font-size: 1rem;
         font-weight: bold;
         color: $clr-light-black;
+        background-color: $clr-background-localisation;
+        border: none; 
+        text-align: center;   
     }
 }
 

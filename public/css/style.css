@@ -471,12 +471,16 @@ header .previous-arrow {
 }
 .localisation__icon {
   font-size: 1rem;
-  margin-right: 1rem;
+  margin-right: 0.5rem;
 }
 .localisation__town {
+  width: 10rem;
   font-size: 1rem;
   font-weight: bold;
   color: #353535;
+  background-color: #eaeaea;
+  border: none;
+  text-align: center;
 }
 
 .description {
